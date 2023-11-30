@@ -1,0 +1,26 @@
+body{
+    background-color: #111C24;;
+}
+
+#Main-Tiltle{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#SearchBox{
+    width: 785px;
+    height: 48px;
+    text-align: center;
+    font-size: 36px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    border: 7px solid #465967;
+    border-radius: 10px;
+}
