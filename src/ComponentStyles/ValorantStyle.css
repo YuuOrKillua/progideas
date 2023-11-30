@@ -1,7 +1,9 @@
+/*Body Styles*/
 body{
     background-color: #111C24;;
 }
 
+/*Main-Title Styles*/
 #Main-Tiltle{
     color: #FFF;
     text-align: center;
@@ -12,11 +14,14 @@ body{
     line-height: normal;
 }
 
+/*Search Box Styles*/
 #SearchBox{
     width: 785px;
     height: 48px;
+
     text-align: center;
     font-size: 36px;
+    
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -24,3 +29,31 @@ body{
     border: 7px solid #465967;
     border-radius: 10px;
 }
+
+/*Start of changing color of placeholder*/
+#SearchBox::-webkit-input-placeholder {
+    color: black;
+}
+#SearchBox:-moz-placeholder {
+    /* FF 4-18 */
+    color: black;
+    opacity: 1;
+}
+#SearchBox::-moz-placeholder {
+    /* FF 19+ */
+    color: black;
+    opacity: 1;
+}
+#SearchBox:-ms-input-placeholder {
+    /* IE 10+ */
+    color: black;
+}
+#SearchBox::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: black;
+}
+#SearchBox::placeholder {
+    /* modern browser */
+    color: black;
+}
+/*Finish of changing color of placeholder*/
