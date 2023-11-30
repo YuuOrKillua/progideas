@@ -31,29 +31,57 @@ body{
 }
 
 /*Start of changing color of placeholder*/
-#SearchBox::-webkit-input-placeholder {
+#SearchBox::-webkit-input-placeholder{
     color: black;
 }
-#SearchBox:-moz-placeholder {
+#SearchBox:-moz-placeholder{
     /* FF 4-18 */
     color: black;
     opacity: 1;
 }
-#SearchBox::-moz-placeholder {
+#SearchBox::-moz-placeholder{
     /* FF 19+ */
     color: black;
     opacity: 1;
 }
-#SearchBox:-ms-input-placeholder {
+#SearchBox:-ms-input-placeholder{
     /* IE 10+ */
     color: black;
 }
-#SearchBox::-ms-input-placeholder {
+#SearchBox::-ms-input-placeholder{
     /* Microsoft Edge */
     color: black;
 }
-#SearchBox::placeholder {
+#SearchBox::placeholder{
     /* modern browser */
     color: black;
 }
 /*Finish of changing color of placeholder*/
+
+/*Starting to organize rows and columns*/
+.Column{
+    float: left;
+    width: 50%;
+  }
+
+.Row{  
+    margin-top: 80px;
+}
+ 
+.Row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Finish row and columns organization*/
+
+/*Styling Column Tiles*/
+#Column-Title{ 
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

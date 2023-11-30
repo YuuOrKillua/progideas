@@ -5,8 +5,14 @@ function Valorant(){
         <div className='Valorant'>
             <h1 id='Main-Tiltle'>Valorant Show Room</h1>
             <input id='SearchBox' type='text' placeholder='Search your desire skin here'/>
-            <h2 id='Comum-Title'>Newest</h2>
-            <h2 id='Comum-Title'>Hottest</h2>
+            <div class="Row">
+                <div class="Column">
+                    <h2 id='Column-Title'>Newest</h2>
+                </div>
+                <div class="Column">
+                    <h2 id='Column-Title'>Hottest</h2>
+                </div>
+            </div>
         </div>
     );
 }
