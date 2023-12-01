@@ -16,7 +16,7 @@ body{
 
 /*Search Box Styles*/
 #SearchBox{
-    width: 785px;
+    width: 40%;
     height: 48px;
 
     text-align: center;
@@ -67,11 +67,13 @@ body{
 .Row{  
     margin-top: 80px;
 }
- 
-.Row:after{
-    content: "";
-    display: table;
-    clear: both;
+
+.Column-Divider{
+    border-left: 6px solid #465967;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    margin-top: 29px;
 }
 /*Finish row and columns organization*/
 

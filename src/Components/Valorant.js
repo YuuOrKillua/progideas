@@ -10,6 +10,7 @@ function Valorant(){
                 <div class="Column">
                     <h2 id='Column-Title'>Newest</h2>
                 </div>
+                <div class='Column-Divider'></div>
                 <div class="Column">
                     <h2 id='Column-Title'>Hottest</h2>
                 </div>
