@@ -1,4 +1,5 @@
 import '../ComponentStyles/ValorantStyle.css';
+<link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet" />
 
 function Valorant(){
     return(
